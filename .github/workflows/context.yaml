@@ -2,7 +2,8 @@ name: Show Workflow Context
 
 on:
   push:
-    - main
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
